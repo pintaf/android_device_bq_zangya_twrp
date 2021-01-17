@@ -1,23 +1,24 @@
- Nokia 7.1 (codenamed _"CTL_sprout"_) are high-end mid-range smartphones from Nokia.
+TWRP Device config
 
-Nokia 7.1 was announced and released in Nov 2018.
+Device configuration for BQ Aquaris X2 (zangya)
+=====================================
 
-## Device specifications
+Basic   | Spec Sheet
+-------:|:-------------------------
+CPU     | Octa-core (8x1.8 GHz Kryo)
+CHIPSET | Qualcomm SDM636 Snapdragon 636
+GPU     | Adreno 509
+Memory  | 3GB or 4GB
+Shipped Android Version | 8.1 (Oreo)
+Storage | 32 or 64 GB
+Battery | Non-removable 3100 mAh
+Dimensions | 150.7 x 72.3 x 8.4 mm
+Display | 1080 x 2160 pixels, 5.65" LTPS IPS LCD
+Rear Camera  | 12 MP main sensor / 5MP depth sensor
+Front Camera | 8 MP
 
-| Device       |   Nokia 7.1                                     |
-| -----------: | :---------------------------------------------- |
-| SoC          | Qualcomm SDM660 Snapdragon 636                  |
-| CPU          | 8x Qualcomm® Kryo™ 260 up to 1.8GHz             |
-| GPU          | Adreno 509                                      |
-| Memory       | 4GB                                             |
-| Shipped Android version | 8.1.0                                |
-| Storage      | 64GB eMMC 5.1 flash storage                     |
-| Battery      | Non-removable Li-Po 3000 mAh                    |
-| Dimensions   | 158.6 x 75.4 x 8.05 mm                          |
-| Display      | 2160 x 1080 (18:9), 5.99 inch                   |
-
+![BQ Aquaris X2](https://wiki.lineageos.org/images/devices/zangya.png "BQ Aquaris X2")
 
 How to build
 
-. build/envsetup.sh && lunch omni_CTL_sprout-eng && make -j32 recoveryimage
-
+. build/envsetup.sh && lunch omni_zangya-eng && make recoveryimage

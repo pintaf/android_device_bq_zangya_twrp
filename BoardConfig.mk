@@ -23,7 +23,7 @@
 # *not* include it on all devices, so it is safe even with hardware-specific
 # components.
 
-PLATFORM_PATH := device/nokia/CTL_sprout
+PLATFORM_PATH := device/bq/zangya
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := sdm660
@@ -64,7 +64,7 @@ BOARD_KERNEL_PAGESIZE    := 4096
 BOARD_KERNEL_TAGS_OFFSET := 0x00000100
 BOARD_RAMDISK_OFFSET     := 0x01000000
 BOARD_SECOND_OFFSET := 0x00f00000
-TARGET_PREBUILT_KERNEL := device/nokia/CTL_sprout/prebuilt/Image.gz-dtb
+TARGET_PREBUILT_KERNEL := device/bq/zangya/prebuilt/Image.gz-dtb
 
 
 # Partitions
@@ -96,7 +96,7 @@ TARGET_CPU_ABI_LIST_64_BIT := arm64-v8a
 TW_INCLUDE_CRYPTO := true
 TW_INCLUDE_CRYPTO_FBE := true
 
-# TWRP specific build flags
+######## TWRP specific build flags
 RECOVERY_SDCARD_ON_DATA := true
 TARGET_RECOVERY_QCOM_RTC_FIX := true
 TW_BRIGHTNESS_PATH := "/sys/class/leds/lcd-backlight/brightness"
@@ -131,9 +131,10 @@ TARGET_COPY_OUT_VENDOR := vendor
 BOARD_SUPPRESS_SECURE_ERASE := true
 TW_USE_LEDS_HAPTICS := true
 USE_RECOVERY_INSTALLER := true
-RECOVERY_INSTALLER_PATH := device/nokia/CTL_sprout/installer
+RECOVERY_INSTALLER_PATH := device/bq/zangya/installer
 TW_EXCLUDE_TWRPAPP := true
 TW_INCLUDE_REPACKTOOLS := true
+# Emergency download mode
 TW_HAS_EDL_MODE := true
 TW_Y_OFFSET := 89
 TW_H_OFFSET := -89

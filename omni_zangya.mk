@@ -67,12 +67,12 @@ PRODUCT_PACKAGES += \
 	
 	# Partitions (listed in the file) to be wiped under recovery.
 TARGET_RECOVERY_WIPE := \
-    device/nokia/CTL_sprout/recovery/root/etc/recovery.wipe	
+    device/bq/zangya/recovery/root/etc/recovery.wipe	
 
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := omni_CTL_sprout
-PRODUCT_DEVICE := CTL_sprout
-PRODUCT_BRAND := Nokia
-PRODUCT_MODEL := Nokia 7.1
-PRODUCT_MANUFACTURER := Nokia
+PRODUCT_NAME := omni_zangya
+PRODUCT_DEVICE := zangya
+PRODUCT_BRAND := BQ
+PRODUCT_MODEL := BQ Aquaris X2
+PRODUCT_MANUFACTURER := BQ

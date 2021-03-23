@@ -64,7 +64,7 @@ BOARD_KERNEL_PAGESIZE    := 4096
 BOARD_KERNEL_TAGS_OFFSET := 0x00000100
 BOARD_RAMDISK_OFFSET     := 0x01000000
 BOARD_SECOND_OFFSET := 0x00f00000
-TARGET_PREBUILT_KERNEL := device/bq/zangya/prebuilt/recovery.img-zImage
+TARGET_PREBUILT_KERNEL := device/bq/zangya/prebuilt/Image.gz-dtb
 
 
 # Partitions

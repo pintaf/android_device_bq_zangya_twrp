@@ -136,5 +136,5 @@ TW_EXCLUDE_TWRPAPP := true
 TW_INCLUDE_REPACKTOOLS := true
 # Emergency download mode
 TW_HAS_EDL_MODE := true
-TW_Y_OFFSET := 89
-TW_H_OFFSET := -89
+TW_Y_OFFSET := 0
+TW_H_OFFSET := 0
